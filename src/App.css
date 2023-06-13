@@ -1,0 +1,129 @@
+html {
+  font-size: 62.5%;
+  overflow: hidden;
+}
+
+h1{
+  text-align: center;
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+header{
+  display: flex;
+  justify-content: center;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+svg{
+  width: 10%;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+svg:hover{
+  fill: rgb(169, 6, 245);
+}
+
+.toggle{
+  display: flex;
+  justify-content: center;
+
+}
+
+.dark{
+  background-color: black;
+  color: white;
+  height: 100vh;
+  
+}
+
+.dark a{
+  color: white;
+}
+
+.dark svg{
+  fill: white;
+}
+
+.dark svg:hover{
+  fill: rgb(244, 240, 5);
+}
+
+/* .plattforms-section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.plattforms-section {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+  z-index: -1;
+}
+
+.loader-section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader-section .landscape-door {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: -1;
+  animation: zoom-in 2s ease-in-out;
+  animation-delay: 4s;
+}
+
+.loader-section{
+  position: absolute;
+  z-index: 0;
+  animation: door-move 4s linear;
+}
+
+@keyframes door-move {
+  0% {
+    transform: scale(1.3);
+  }
+  20% {
+    transform: scale(1.5) translateX(0rem) rotate(0deg);
+  }
+
+  60% {
+    transform: scale(1.5) translateX(50vw) rotate(180deg);
+  }
+
+  100% {
+    transform: scale(1.5) translateX(100vw) rotate(360deg);
+  }
+} */
+
+/* @keyframes zoom-in {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(5);
+    opacity: 0;
+  }
+} */
